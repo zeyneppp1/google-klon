@@ -1,0 +1,54 @@
+nav {
+    text-align: right;
+}
+a:link {
+    color: black;
+}
+a:hover {
+    color: rgb(8, 17, 24);
+}
+a {
+    color: rgb(78, 12, 12);
+    text-decoration: none;
+}
+div {
+    text-align: center;
+}
+.search-bar {
+    position: relative;
+    display: inline-block;
+}
+#search {
+    width: 40%;
+    padding: 13px;
+    padding-left: 30px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 15px;
+}
+.search-bar i.fa-microphone {
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.search-bar i.fa-magnifying-glass {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #4285f4;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #357ae8;
+}
